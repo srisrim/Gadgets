@@ -26,3 +26,14 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+#Post Cli Installation project Setup
+
+Run `gem install sass` for installing sass
+
+Run `npm install bootstrap@next --save` to install bootstrap 4
+
+Run `npm install jquery --save` to install jquery as it required for bootstrap
+
+Run `npm install ngx-popper --save` to install popper.js as it required for bootstrap
+

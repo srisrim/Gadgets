@@ -6,13 +6,15 @@ import { GadgetsComponent } from './gadgets/gadgets.component';
 import { LoginComponent } from './login/login.component';
 import { HttpModule } from '@angular/http';
 import { GadgetsService } from './gadgets/gadgets.service';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     GadgetsComponent,
-    LoginComponent
+    LoginComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule, HttpModule

@@ -1,20 +1,15 @@
 <div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1>My Gadgets</h1>
-    </div>
-    <div *ngFor="let data of dataResponse" class="col-sm-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          Gadgets Header
-        </div>
-        <div class="panel-body">
-          <img src={{data.url}} alt="" class="img-responsive">
-        </div>
-        <div class="panel-footer">
-          <p>{{data.title}}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>My Gadgets</h1>
+		</div>
+		<div *ngFor="let data of dataResponse" class="col-sm-4">
+			<div class="card" style="width: 20rem;">
+				<img class="card-img-top" src={{data.url}} alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">{{data.title}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
