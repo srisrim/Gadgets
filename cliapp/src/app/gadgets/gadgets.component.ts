@@ -45,7 +45,7 @@ export class GadgetsComponent implements OnInit {
           "thumbnailUrl": "http://placehold.it/150/d32776"
         }]
 
-        this.dataResponse = this.dataResponse.filter(each => each.id < 3);
+        this.dataResponse = this.dataResponse.filter(each => each.id <= 3);
     })
   }
 
